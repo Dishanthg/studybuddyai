@@ -1,0 +1,19 @@
+1. Clone the repository
+
+git clone https://github.com/your-username/study-bot.git
+cd study-bot
+2. Install dependencies
+
+pip install -r requirements.txt
+3. Install Tesseract-OCR
+Download from: https://github.com/tesseract-ocr/tesseract
+
+Make sure to set the correct path in the code:
+
+pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+4. Add your OpenAI API key
+Create a .env file in the project root:
+
+OPENAI_API_KEY=your_openai_api_key_here
+🔐 Never share your API key publicly.
+
